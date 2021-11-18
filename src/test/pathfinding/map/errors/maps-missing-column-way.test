@@ -1,0 +1,5 @@
+INPUT
+map data/maps/missingColumnWayTableMaps.sqlite3
+OUTPUT
+ERROR:
+END

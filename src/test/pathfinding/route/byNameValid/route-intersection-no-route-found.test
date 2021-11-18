@@ -1,0 +1,9 @@
+INPUT
+map data/maps/smallMaps.sqlite3
+route "Kamaji Pl" "Yubaba St" "Chihiro Ave" "Radish Spirit Blvd"
+route "Chihiro Ave" "Sootball Ln" "Radish Spirit Blvd" "Yubaba St"
+OUTPUT
+map set to data/maps/smallMaps.sqlite3
+/n/5 -/- /n/0
+/n/1 -/- /n/3
+END

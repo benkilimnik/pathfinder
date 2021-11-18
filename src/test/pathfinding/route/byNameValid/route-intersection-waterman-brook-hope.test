@@ -1,0 +1,7 @@
+INPUT
+map data/maps/maps.sqlite3
+route "Waterman Street" "Brook St" "Waterman Street" "Hope Street"
+OUTPUT
+map set to data/maps/maps.sqlite3
+/n/4182.7139.201365753 -> /n/4182.7139.201718932 : /w/4182.7139.19402129.29.1
+END

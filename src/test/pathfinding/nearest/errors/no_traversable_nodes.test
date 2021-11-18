@@ -1,0 +1,7 @@
+INPUT
+map data/maps/noTraversableNode.sqlite3
+nearest 1 2
+OUTPUT
+ERROR: Malformed/missing data in DB
+ERROR: No DB loaded
+END

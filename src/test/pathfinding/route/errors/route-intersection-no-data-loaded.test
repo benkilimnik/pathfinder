@@ -1,0 +1,5 @@
+INPUT
+route "Chihiro Ave" "Radish Spirit Blvd" "Kamaji Pl" "Yubaba St"
+OUTPUT
+ERROR:
+END

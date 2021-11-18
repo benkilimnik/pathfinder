@@ -1,0 +1,6 @@
+INPUT
+map data/maps/noTraversableWays.sqlite3
+route 10 -10 -10 10
+OUTPUT
+map set to data/maps/noTraversableWays.sqlite3
+END

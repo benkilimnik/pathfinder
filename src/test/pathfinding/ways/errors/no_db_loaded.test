@@ -1,0 +1,5 @@
+INPUT
+ways 100 -100 -100 100
+OUTPUT
+ERROR: No DB loaded
+END

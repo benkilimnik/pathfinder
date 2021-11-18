@@ -1,0 +1,9 @@
+INPUT
+map data/maps/testMaps.sqlite3
+route nf eh eh r
+route "nif" ehif "hi " fehi
+OUTPUT
+map set to data/maps/testMaps.sqlite3
+ERROR: latitudes and longitudes must be real numbers
+ERROR: street names must be within ""
+END

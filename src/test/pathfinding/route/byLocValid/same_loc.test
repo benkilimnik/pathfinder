@@ -1,0 +1,7 @@
+INPUT
+map data/maps/testMaps.sqlite3
+route 90 90 90 90
+OUTPUT
+map set to data/maps/testMaps.sqlite3
+/n/9 -/- /n/9
+END

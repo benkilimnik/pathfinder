@@ -1,0 +1,9 @@
+INPUT
+map data/maps/isolatedNode.sqlite3
+route 41 -71 0 0
+route 1.1 1.1 50 -50
+OUTPUT
+map set to data/maps/isolatedNode.sqlite3
+/n/0 -/- /n/6
+/n/7 -/- /n/2
+END

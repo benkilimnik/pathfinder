@@ -1,0 +1,5 @@
+INPUT
+map data/maps/missingNodeIdNeverInWay.sqlite3
+OUTPUT
+map set to data/maps/missingNodeIdNeverInWay.sqlite3
+END

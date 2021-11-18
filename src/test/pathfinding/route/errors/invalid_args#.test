@@ -1,0 +1,7 @@
+INPUT
+map data/maps/testMaps.sqlite3
+route 3 4 5 6 5
+OUTPUT
+map set to data/maps/testMaps.sqlite3
+ERROR: Invalid no.of arguments passed for route / streets within incomplete quotes
+END

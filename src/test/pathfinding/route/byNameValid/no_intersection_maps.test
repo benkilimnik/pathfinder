@@ -1,0 +1,7 @@
+INPUT
+map data/maps/maps.sqlite3
+route "" "United States of America" "United States of America" ""
+OUTPUT
+map set to data/maps/maps.sqlite3
+ERROR: Paths do not intersect / street not found
+END

@@ -1,0 +1,5 @@
+INPUT
+map data/maps/fake-map.sqlite3
+OUTPUT
+ERROR:
+END

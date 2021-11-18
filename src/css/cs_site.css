@@ -1,0 +1,89 @@
+.featurebox {
+	position: relative;
+	background-color: #ffffff;
+	margin: 0.5em 0;
+	padding: 2% 0;
+	outline: 2px solid #002e6d;
+}
+.featurebox > div.clear {
+	clear: both;
+}
+.featurebox img {
+	float: right;
+	margin: 0 3%;
+}
+/*
+.feature-top {
+	position: relative;
+}
+*/
+.feature-top p,
+.feature-top a {
+	color: #e05626 !important;
+}
+.feature-top > p {
+	font-family: "Bree Serif", Georgia, serif;
+	font-size: 3em;
+	line-height: 1.2em;
+	min-width: 320px;
+	margin: 0 3%;
+}
+.feature-other {
+	position: relative;
+	padding: 0;
+	overflow: hidden;
+}
+.featurebox-landscape .feature-other {
+	clear: both;
+}
+.feature-other p,
+.feature-other a {
+	color: #002e6d !important;
+}
+.feature-other > p {
+	display: inline-block;
+	vertical-align: top;
+	font-family: "Bree Serif", Georgia, serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	width: 43.9%;
+	text-align: left;
+	padding: 0 3% 999px 3%;
+	margin: 15px 0 -999px -2px;
+	border-left: 2px solid #002e6d;
+}
+.feature-other.feature-col3 > p {
+	width: 27%;
+}
+.feature-other.feature-col4 > p {
+	width: 18.8%;
+}
+
+@media all and (max-width: 767px) {
+	.feature-top > p:first-line {
+		font-size: 1.8em;
+	}
+	.feature-top p {
+		font-size: 1em;
+	}
+	.feature-other > p,
+	.feature-other.feature-col4 > p,
+	.feature-other.feature-col3 > p {
+		font-size: 1em;
+		line-height: 1.2em;
+		width: 43.9%;
+	}
+}
+@media all and (max-width: 480px) {
+	.feature-top p {
+		font-size: 1em;
+	}
+	.feature-other {
+		clear: both;
+	}
+	.feature-other > p,
+	.feature-other.feature-col4 > p,
+	.feature-other.feature-col3 > p {
+		width: inherit;
+	}
+}

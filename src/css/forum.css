@@ -1,0 +1,99 @@
+body {
+    background-color: lavender;
+    font-family: 'Bree Serif', 'Georgia', serif;
+    color: darkslateblue;
+}
+
+#header {
+    background-color: #715ac6;
+    width: max-content;
+    height: max-content;
+    color: white;
+}
+
+#navigation {
+    display: inline;
+}
+
+#nav-list {
+    list-style-type: none;
+    display: inline;
+}
+
+#nav1 {
+    display: inline;
+}
+
+#nav1-link {
+    color: white;
+}
+
+#nav2 {
+    display: inline;
+    color: white;
+}
+
+#nav2-link {
+    color: white;
+}
+
+#nav3 {
+    display: inline;
+}
+
+#article-title {
+    text-align: center;
+
+}
+
+#horoscope {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#symbol {
+    float: right;
+}
+
+#add-comment {
+    color: indianred;
+}
+
+#comment {
+    display: block;
+    width: 250px;
+    height: 75px;
+}
+
+#post-button {
+    background-color: white;
+    color: black;
+    border: 2px solid indianred;
+    border-radius: 12px;
+    font-size: medium;
+    margin-left: 200px;
+}
+
+#comment1 {
+    border: 2px double indianred;
+    width: 250px;
+    height: 75px;
+}
+
+#comment2 {
+    border: 2px double indianred;
+    width: 250px;
+    height: 75px;
+}
+
+#comment3 {
+    border: 2px double indianred;
+    width: 250px;
+    height: 75px;
+}
+
+#comment4 {
+    border: 2px double indianred;
+    width: 250px;
+    height: 75px;
+}

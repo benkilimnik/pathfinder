@@ -1,0 +1,7 @@
+INPUT
+map data/maps/routeMap.sqlite3
+route "w 0" "test2" "w 0" "test1"
+OUTPUT
+map set to data/maps/routeMap.sqlite3
+ERROR: Paths do not intersect / street not found
+END

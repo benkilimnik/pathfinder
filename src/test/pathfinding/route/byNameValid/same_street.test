@@ -1,0 +1,7 @@
+INPUT
+map data/maps/routeMap.sqlite3
+route "test1" "test2" "test2" "test1"
+OUTPUT
+map set to data/maps/routeMap.sqlite3
+/n/10 -> /n/11 : /w/8
+END

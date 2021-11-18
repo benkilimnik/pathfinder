@@ -1,0 +1,7 @@
+INPUT
+map data/maps/noTraversableWays.sqlite3
+nearest 10 10
+OUTPUT
+map set to data/maps/noTraversableWays.sqlite3
+END
+

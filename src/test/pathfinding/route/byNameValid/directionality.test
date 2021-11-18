@@ -1,0 +1,9 @@
+INPUT
+map data/maps/testMaps.sqlite3
+route "" "Radish Spirit Blvd" "tied" "farfar"
+route "tied" "farfar" "" "Radish Spirit Blvd"
+OUTPUT
+map set to data/maps/testMaps.sqlite3
+/n/3 -/- /n/8
+/n/8 -> /n/3 : /w/10
+END

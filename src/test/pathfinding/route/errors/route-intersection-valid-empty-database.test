@@ -1,0 +1,7 @@
+INPUT
+map data/maps/validEmptyDatabase.sqlite3
+route "Chihiro Ave" "Radish Spirit Blvd" "Kamaji Pl" "Yubaba St"
+OUTPUT
+map set to data/maps/validEmptyDatabase.sqlite3
+ERROR:
+END

@@ -1,0 +1,5 @@
+INPUT
+map data/maps/missingIDInWay.sqlite3
+OUTPUT
+ERROR: Way and node ids must not be empty
+END

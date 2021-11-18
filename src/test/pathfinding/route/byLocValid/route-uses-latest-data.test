@@ -1,0 +1,9 @@
+INPUT
+map data/maps/validEmptyDatabase.sqlite3
+map data/maps/isolatedNode.sqlite3
+route 41.7 -71 0 0
+OUTPUT
+map set to data/maps/validEmptyDatabase.sqlite3
+map set to data/maps/isolatedNode.sqlite3
+/n/0 -/- /n/6
+END

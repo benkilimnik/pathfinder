@@ -1,0 +1,7 @@
+INPUT
+map data/maps/testMaps.sqlite3
+route "" "" "" ""
+OUTPUT
+map set to data/maps/testMaps.sqlite3
+ERROR: Street self-intersection
+END

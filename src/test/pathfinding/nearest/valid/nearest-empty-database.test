@@ -1,0 +1,6 @@
+INPUT
+map data/maps/validEmptyDatabase.sqlite3
+nearest 10 10
+OUTPUT
+map set to data/maps/validEmptyDatabase.sqlite3
+END

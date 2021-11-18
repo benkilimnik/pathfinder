@@ -1,0 +1,45 @@
+body {
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+#asdf0 {
+    color: red;
+}
+
+#asdf1 {
+    font-weight: bold;
+}
+
+#asdf2 {
+    color : coral;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+#asdf3 {
+    color : white;
+    text-decoration: underline;
+}
+
+#asdf4 {
+    color : black;
+}
+
+#yt {
+    color: dodgerblue;
+}
+
+#clickme {
+    background-color : darkslategrey;
+    font-size : larger;
+    color : white;
+}
+
+#asdf5 {
+    float: left;
+    color : lightgoldenrodyellow;
+}
+
+#asdf6 {
+    color : darkblue;
+}

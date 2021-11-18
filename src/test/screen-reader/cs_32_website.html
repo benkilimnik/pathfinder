@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>CS 32 | Brown University</title>
+  <meta name="description" content="CS32 (CSCSI0320) is Introduction to Software Engineering at Brown University
+">
+
+  <link rel="stylesheet" href="../css/cs_32.css">
+  <link rel="canonical" href="http://www.cs.brown.edu/courses/cs0320/">
+  <link href="https://fonts.googleapis.com/css?family=Lato:700|Source+Sans+Pro:400,700&display=swap" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../javascript/main.js"></script>
+
+  <script>
+    // GLOBAL VARIABLES
+    var page_height;
+    var header;
+
+    // DEFINING GLOBAL VARIABLES
+    $( document ).ready(function() {
+      page_height = $('.intro').height();
+      header = page_height/3;
+    });
+
+    // COLOR CHANGING NAV ON SCROLL FUNCTION
+    $(window).on('scroll', function() {
+        var scrollTop = $(this).scrollTop();
+
+        if (scrollTop > header) {
+          //this color code used to be #028090
+          $('.site-header').css({'background-color' : '#150D26'});
+        } else {
+          $('.site-header').css({'background-color' : 'transparent'});
+        }
+    });
+  </script>
+</head>
+
+  <body>
+    <header class="intro">
+  <!-- <h1>CS32</h1> -->
+  <!-- <h3>Intro to Software Engineering<br>Brown University</h3> -->
+  <!-- <div class="arrow">&blacktriangledown;</div> -->
+</header>
+
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/courses/cs0320/" >CS32</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        <!-- 
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/courses/cs0320/hours.html">Hours</a>
+          
+        
+          
+        
+          
+          <a class="page-link" href="/courses/cs0320/labs/">Labs</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/courses/cs0320/lectures/">Lectures</a>
+          
+        
+          
+          <a class="page-link" href="/courses/cs0320/projects/">Projects</a>
+          
+        
+          
+          <a class="page-link" href="/courses/cs0320/docs/">Resources</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/courses/cs0320/staff.html">Staff</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+         -->
+
+        <a class="page-link" href="/courses/cs0320/docs/index.html">resources</a>
+        <a class="page-link" href="/courses/cs0320/lectures/index.html">lectures</a>
+        <a class="page-link" href="/courses/cs0320/labs/index.html">labs</a>
+        <a class="page-link" href="/courses/cs0320/projects/index.html">projects</a>
+        <a class="page-link" href="/courses/cs0320/hours.html">hours</a>
+        <a class="page-link" href="/courses/cs0320/staff.html">staff</a>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="home">
+  <div id="text">
+    <h1 class="page-heading">Welcome to CS32!</h1>
+    <!-- <p id="considering-mobile">Considering taking 32? Read about students' <a href="docs/should-i-take.html">past experiences</a>.</p> -->
+    <p>You'll learn techniques for designing, building, and maintaining
+      large, scalable, and reusable systems. We will cover advanced
+      programming techniques using Java, Javascript, and React.  Course assignments
+      will familiarize students with software testing, relational databases,
+      concurrency techniques such as threads, and software engineering tools
+      like git, profilers, and debuggers.  Students build projects of
+      meaningful size and complexity, and <i>reuse</i> their efforts in ever
+      larger projects. A major component of the course will be a group
+      software project of your own design.
+    </p>
+
+    <p>The course will meet <b>Tuesdays and Thursdays</b>
+      synchronously during <b>1:00-2:20pm</b> at Metcalf Research Building AUD.</p>
+
+    <p>Pre-requisites are CS16, CS18, or CS19.</p>
+
+    <p>Have questions about the course material? Ask them on <a href='https://edstem.org/us/courses/13003' target="_blank" rel="noopener noreferrer">EdStem</a>.</p>
+    <p> Note: This website is in the process of being updated. All content with "Spring 2021" may change for Fall 2021</p>
+  </div>
+  <div id="course-docs">
+    <!-- <p id="considering">Considering taking 32? Read about students' <a href="docs/should-i-take.html">past experiences</a>.</p> -->
+    <h1>Course Docs</h1>
+    <ul>
+      <li> <a target="_blank" href="https://docs.google.com/document/d/1xshq4suqaz6NvfKGGMERvgCqSF0WImPxFq0vmhHDZS8/edit#heading=h.rxla8bz6bjb"> Course Missive</a>
+        and <a target="_blank"  href="https://docs.google.com/document/d/1rXB10JTKEYb_Iv4LwdeJ25iZQ8wwVBKtiGGsgZ9dCc4/edit"> Syllabus</a></li>
+      <li> <a target="_blank"  href="https://docs.google.com/document/d/13KItTNW9OdjJoQ9kDNa-UjJHsgaWdAMVhpRAkXb3WcI/edit">Setting Expectations</a></li>
+      <li><a target="_blank"  href="https://docs.google.com/document/d/1-O4c5KA2FgHeO9q6tfjp5zaHb9MLQbJfn3wMIhDlYGk/edit">Set Up Guide</a></li>
+      <li><a target="_blank"  href="https://docs.google.com/document/d/1THz1zrXMrG2h-ekoyhIuUqjWAAZafrLj_ccd54hT9Kc/edit">Documentation and Style Guide</a></li>
+      <li><a target="_blank"  href="https://forms.gle/Ym1CBsrmimVuRcaK9">Anonymous Feedback Form</a></li>
+      <li><a target="_blank"  href='https://edstem.org/us/courses/13003'>EdStem</a></li>
+    </ul>
+
+  <h1>Recommended Books</h1>
+  <ul>
+    <li><a target="_blank"  href="https://login.revproxy.brown.edu/login?url=https://proquest.safaribooksonline.com/9780134686097">Effective Java</a></li>
+  </ul>
+  </div>
+</div>
+
+      </div>
+    </div>
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    
+    <p>Brown University Computer Science Department</p>
+    <p class = "disclaimer">aCStrology not affiliated with the field of astrology</p>
+
+  </div>
+
+</footer>
+
+  </body>
+</html>

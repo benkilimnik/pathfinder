@@ -1,0 +1,6 @@
+INPUT
+map data/maps/validEmptyDatabase.sqlite3
+ways 1000 -1000 -1000 1000
+OUTPUT
+map set to data/maps/validEmptyDatabase.sqlite3
+END

@@ -1,0 +1,7 @@
+INPUT
+map data/maps/testMaps.sqlite3
+nearest 41.82 -71.4003
+OUTPUT
+map set to data/maps/testMaps.sqlite3
+/n/8
+END

@@ -1,0 +1,5 @@
+INPUT
+map data/maps/missingColumns.sqlite3
+OUTPUT
+ERROR: DB missing columns/is empty
+END

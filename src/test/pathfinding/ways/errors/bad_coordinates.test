@@ -1,0 +1,7 @@
+INPUT
+map data/maps/emptyTables.sqlite3
+ways 70 70 90 90
+OUTPUT
+ERROR: Malformed/missing data in DB
+ERROR: Coordinates not northwest & southeast
+END

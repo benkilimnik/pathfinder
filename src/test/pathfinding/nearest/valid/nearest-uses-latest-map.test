@@ -1,0 +1,9 @@
+INPUT
+map data/maps/validEmptyDatabase.sqlite3
+map data/maps/smallMaps.sqlite3
+nearest 1000 1000
+OUTPUT
+map set to data/maps/validEmptyDatabase.sqlite3
+map set to data/maps/smallMaps.sqlite3
+/n/2
+END

@@ -1,0 +1,7 @@
+INPUT
+map data/maps/routeMap.sqlite3
+route 0 0 4 4
+OUTPUT
+map set to data/maps/routeMap.sqlite3
+/n/0 -> /n/4 : /w/4
+END

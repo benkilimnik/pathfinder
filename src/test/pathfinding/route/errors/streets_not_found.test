@@ -1,0 +1,7 @@
+INPUT
+map data/maps/testMaps.sqlite3
+route "hih hih" "hihif fehi " " " ""
+OUTPUT
+map set to data/maps/testMaps.sqlite3
+ERROR: Paths do not intersect / street not found
+END
